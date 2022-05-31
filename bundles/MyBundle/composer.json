@@ -1,0 +1,17 @@
+{
+    "name": "acme/my-bundle",
+    "description": "very important description",
+    "version": "0.0.1",
+    "type": "symfony-bundle",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/framework-bundle": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "acme\\MyBundle\\": "src/"
+        }
+    }
+}
