@@ -1,0 +1,1 @@
+Need to add ./bundles/MyBundle to config/bundles.yml
