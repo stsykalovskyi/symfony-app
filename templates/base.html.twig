@@ -7,6 +7,11 @@
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
+            <style>
+                .label {
+                    color: green;
+                }
+            </style>
         {% endblock %}
 
         {% block javascripts %}

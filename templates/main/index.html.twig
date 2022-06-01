@@ -1,7 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello MainController!{% endblock %}
+{% block title %}Home{% endblock %}
 
 {% block body %}
-    <h1>This is main index template file from symfony app.</h1>
+    <h1>Main page</h1>
+    <h2 class="label">Template App</h2>
+    <h2 class="label">Controller {{ app_name }}</h2>
+    <a href="{{ path('app_about') }}">About</a>
 {% endblock %}

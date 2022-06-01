@@ -1,0 +1,10 @@
+{% extends '@My/layout.html.twig' %}
+
+{% block title %}About page{% endblock %}
+
+{% block body %}
+    <h1>About page</h1>
+    <h2 class="label">Template Bundle</h2>
+    <h2 class="label">Controller {{ app_name }}</h2>
+    <a href="{{ path('bundle_main') }}">Main</a>
+{% endblock %}
