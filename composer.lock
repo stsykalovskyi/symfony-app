@@ -4,8 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8cc0a9731ed9c4333a177f8ac218fcb8",
+    "content-hash": "e708b6101d2f5b3d018b61e8621dc77c",
     "packages": [
+        {
+            "name": "acme/my-bundle",
+            "version": "0.0.1",
+            "dist": {
+                "type": "path",
+                "url": "./bundles/MyBundle",
+                "reference": "892c52c42c98ee300ec9769f4b479424beae6fb4"
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/framework-bundle": "5.4.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Acme\\MyBundle\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "very important description",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "doctrine/annotations",
             "version": "1.13.2",

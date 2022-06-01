@@ -1,5 +1,5 @@
 bundle_controllers:
-    resource: ../../bundles/SymfonyBundle/src/Controller/
+    resource: ../../bundles/MyBundle/src/Controller/
     type: annotation
 
 app_controllers:

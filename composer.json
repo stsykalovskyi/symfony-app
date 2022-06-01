@@ -7,6 +7,7 @@
         "php": ">=7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "acme/my-bundle": "^0.0.1",
         "doctrine/annotations": "^1.0",
         "doctrine/doctrine-bundle": "^2.6",
         "doctrine/doctrine-migrations-bundle": "^3.2",
@@ -44,8 +45,7 @@
         "symfony/webpack-encore-bundle": "^1.12",
         "symfony/yaml": "5.4.*",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0",
-        "acme/my-bundle": "@dev"
+        "twig/twig": "^2.12|^3.0"
     },
     "config": {
         "allow-plugins": {
@@ -67,7 +67,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./bundles/MyBundle/*"
+            "url": "./bundles/MyBundle/"
         }
     ],
     "autoload-dev": {
